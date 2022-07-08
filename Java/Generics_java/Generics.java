@@ -9,7 +9,6 @@ class GenericsDemo<T> {
         for (int i = 0; i < predator.length; i++) {
             System.out.print(predator[i] + " ");
         }
-
     }
 } 
 
