@@ -19,5 +19,7 @@ public class Generics {
     public static void main(String[] args) {
         GenericsDemo<Integer> gd = new GenericsDemo<Integer>(new Integer[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 });
         gd.createArray();
+        GenericsDemo<String> gd1=new GenericsDemo<String>(new String[]{"Welcome","To","Java","Generics"});
+        gd1.createArray();
     }
 }
