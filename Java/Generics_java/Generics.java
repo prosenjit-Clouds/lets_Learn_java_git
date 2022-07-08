@@ -7,7 +7,10 @@ class GenericsDemo<T> {
 
     void createArray() {
         for (int i = 0; i < predator.length; i++) {
-            System.out.print(predator[i] + " ");
+            System.out.print(predator[i] + "");
+            if(i!=predator.length-1){
+                System.out.print(",");
+            }
         }
     }
 } 
